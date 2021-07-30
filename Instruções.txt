@@ -1,0 +1,10 @@
+-----------Adicionar migration para criação do Banco de Dados Local------------
+-pelo prompt de comando acessar o caminho:
+\Projetos Angular\CRUDAngularWebAPI\CRUDAPI>
+-e executar o comando dotnet
+dotnet ef migrations add conexaoBD
+-e depois 
+dotnet ef database update  
+
+-----------Adicionar diretorios de node-modules------------
+Foi retirado para que o projeto ficasse mais leve para transferencia.
